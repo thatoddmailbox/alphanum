@@ -1,7 +1,7 @@
 # alphanum
 [![Test status](https://github.com/thatoddmailbox/alphanum/workflows/Tests/badge.svg)](https://github.com/thatoddmailbox/alphanum/actions)
 
-Library for sorting lists of strings with the [alphanum algorithm](http://davekoelle.com/alphanum.html) in the Go programming language.
+A library for sorting lists of strings with the [alphanum algorithm](http://davekoelle.com/alphanum.html) in the Go programming language.
 
 ## Background
 The alphanum algorithm is designed to sort a list of strings in a natural order. Numbers in the list are ordered in the way that a human might think about them, rather than a pure alphabetical comparison. For example, a standard lexicographic sort might order a list like so:
@@ -28,7 +28,7 @@ File 11
 File 12
 ```
 
-For more details, see the [alphanum webpage](http://davekoelle.com/alphanum.html),
+For more details, see the [alphanum webpage](http://davekoelle.com/alphanum.html).
 
 ## Usage
 ### sort.Interface
@@ -52,7 +52,7 @@ fmt.Printf("%#v\n", data) // => []string{"20X Radonius", "20X Radonius Prime", "
 ```
 
 ### Less
-If you're writing your own sort code, the package exports a `Less` function, which takes two strings and returns `true` if the first string should sorted before the second one.
+If you're writing your own sort code, you can use the package's `Less` function. `Less` takes two strings and returns `true` if the first string should sorted before the second one.
 
 For example:
 ```go
