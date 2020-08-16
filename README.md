@@ -1,9 +1,36 @@
 # alphanum
 Library for sorting lists of strings with the [alphanum algorithm](http://davekoelle.com/alphanum.html) in the Go programming language.
 
+## Background
+The alphanum algorithm is designed to sort a list of strings in a natural order. Numbers in the list are ordered in the way that a human might think about them, rather than a pure alphabetical comparison. For example, a standard lexicographic sort might order a list like so:
+```
+File 1
+File 10
+File 11
+File 12
+File 2
+File 3
+File 4
+File 5
+```
+
+While alphanum would return:
+```
+File 1
+File 2
+File 3
+File 4
+File 5
+File 10
+File 11
+File 12
+```
+
+For more details, see the [alphanum webpage](http://davekoelle.com/alphanum.html),
+
 ## Usage
 ### sort.Interface
-This package exports a `StringSlice` type, which implements `sort.Interface`. This means that if you want to sort a `[]string`, you can do:
+This package exports a `StringSlice` type, which implements `sort.Interface`. This means if you want to sort a `[]string`, you can do something like:
 ```go
 data := []string{
 	"20X Radonius Prime",
