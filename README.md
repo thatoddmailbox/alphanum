@@ -1,4 +1,6 @@
 # alphanum
+[![Test status](https://github.com/thatoddmailbox/alphanum/workflows/Tests/badge.svg)](https://github.com/thatoddmailbox/alphanum/actions)
+
 Library for sorting lists of strings with the [alphanum algorithm](http://davekoelle.com/alphanum.html) in the Go programming language.
 
 ## Background
