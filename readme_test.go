@@ -31,7 +31,7 @@ func TestReadme(t *testing.T) {
 	})
 
 	// Usage -> Less
-	testSingleLess(t, "File 1", "File 10")
+	testSingleLess(t, "File 2", "File 10")
 	testSingleLess(t, "File 10", "File 17")
 	testSingleLess(t, "Allegia 50 Clasteron", "Allegia 500 Clasteron")
 	testSingleLess(t, "Callisto Morphamax 6000 SE", "Callisto Morphamax 6000 SE2")

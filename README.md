@@ -27,7 +27,7 @@ If you're writing your own sort code, the package exports a `Less` function, whi
 
 For example:
 ```go
-alphanum.Less("File 1", "File 10") // => true
+alphanum.Less("File 2", "File 10") // => true
 alphanum.Less("File 17", "File 10") // => false
 alphanum.Less("Allegia 50 Clasteron", "Allegia 500 Clasteron") // => true
 alphanum.Less("Callisto Morphamax 6000 SE2", "Callisto Morphamax 6000 SE") // => false
