@@ -88,11 +88,7 @@ func lessChunks(aChunks []string, aNumeric []bool, bChunks []string, bNumeric []
 		}
 	}
 
-	if aChunkCount < bChunkCount {
-		return true
-	}
-
-	return false
+	return aChunkCount < bChunkCount
 }
 
 // Less reports whether string A should be before string B.
