@@ -1,7 +1,7 @@
 # alphanum
 [![Test status](https://github.com/thatoddmailbox/alphanum/workflows/Tests/badge.svg)](https://github.com/thatoddmailbox/alphanum/actions)
 
-A library for sorting lists of strings with the [alphanum algorithm](http://davekoelle.com/alphanum.html) in the Go programming language.
+A library for sorting lists of strings with the [alphanum algorithm](https://web.archive.org/web/20210803201519/http://davekoelle.com/alphanum.html) in the Go programming language.
 
 ## Background
 The alphanum algorithm is designed to sort a list of strings in a natural order. Numbers in the list are ordered in the way that a human might think about them, rather than a pure alphabetical comparison. For example, a standard lexicographic sort might order a list like so:
